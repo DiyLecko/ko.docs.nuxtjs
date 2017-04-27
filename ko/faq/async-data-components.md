@@ -16,7 +16,7 @@ description: 컴포넌트에서 비동기 데이터를 다루려면?
 
 <!-- For sub components, there are 2 ways of achieving it: -->
 
-しかしながら、서브 컴포넌트(역주: components 디렉토리에 있는 컴포넌트를 말함)에서도 비동기 데이터를 다룰수 있도록 하는 방법이 두가지가 있습니다:
+서브 컴포넌트(역주: components 디렉토리에 있는 컴포넌트를 말함)에서도 비동기 데이터를 다룰수 있도록 하는 방법이 두가지가 있습니다:
 
 <!-- 1. Making the API call in the mounted() hook and setting the data afterwards, downside: no server rendering -->
 <!-- 2. Making the API call in the data() of the page component and giving the data as a prop to the subComponent: server rendering OK. But the data() of the page might be less readable because it's loading the async data of the sub components -->
