@@ -1,6 +1,6 @@
 ---
 title: 인증 경로
-description: Nuxt.js로 인증된 경로 예제
+description: Nuxt.js를 사용한 인증 경로 예제
 github: auth-routes
 livedemo: https://nuxt-auth-routes.gomix.me
 liveedit: https://gomix.com/#!/project/nuxt-auth-routes
@@ -84,7 +84,7 @@ promise.then(() => {
 
 ## Store 사용하기
 
-사용자가 페이지 **전체**에 연결되어 있는지 여부를 응용 프로그램에 알리려면 전역 상태가 필요합니다.
+사용자가 페이지 **전체** 에 연결되어 있는지 여부를 응용 프로그램에 알리려면 전역 상태가 필요합니다.
 
 Nuxt.js가 Vuex를 사용하기 위해서 `store/index.js` 파일을 만듭니다:
 
