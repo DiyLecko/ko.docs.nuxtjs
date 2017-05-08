@@ -92,9 +92,9 @@
       {
         "to": "/commands", "name": "명령어들",
         "contents": [
-          { "to": "#list-of-commands", "name": "명령어 목록" },
+          { "to": "#list-of-commands", "name": "명령어 리스트" },
           { "to": "#development-environment", "name": "개발 환경" },
-          { "to": "#production-deployment", "name": "제품 출시" }
+          { "to": "#production-deployment", "name": "프로덕션 배포" }
         ]
       },
       {
