@@ -55,7 +55,7 @@
         "contents": [
           { "name": "dir", "to": "#dir" },
           { "name": "minify", "to": "#minify" },
-          { "name": "경로", "to": "#routes" }
+          { "name": "경로", "to": "#경로" }
         ]
       },
       { "name": "API: head 프로퍼티", "to": "/configuration-head" },
@@ -63,9 +63,9 @@
         "name": "API: loading 프로퍼티",
         "to": "/configuration-loading",
         "contents": [
-          { "name": "Progress Bar 사용 여부", "to": "#disable-the-progress-bar" },
-          { "name": "사용자 정의 Progress Bar", "to": "#customize-the-progress-bar" },
-          { "name": "사용자 정의 Loading 컴포넌트 사용", "to": "#use-a-custom-loading-component" }
+          { "name": "Progress Bar 사용 여부", "to": "#progress-bar-사용-여부" },
+          { "name": "사용자 정의 Progress Bar", "to": "#사용자-정의-progress-bar" },
+          { "name": "사용자 정의 Loading 컴포넌트 사용", "to": "#사용자-정의-loading-컴포넌트-사용" }
         ]
       },
       {
