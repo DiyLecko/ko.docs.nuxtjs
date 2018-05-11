@@ -24,7 +24,7 @@ export default {
 }
 ```
 
-<div class="Alert Alert--orange">`asyncData` 메소드 내부에서 컴포넌트 인스턴스에 `this`를 이용하여 접근해서는 **안됩니다**. 왜냐면, `data` 메소드는 컴포넌트가  **인스턴스화 되기 전에** 불려지기 때문입니다.</div>
+<div class="Alert Alert--orange">`asyncData` 메소드 내부에서 컴포넌트 인스턴스에 `this`를 이용하여 접근해서는 **안됩니다**. 왜냐면, `asyncData` 메소드는 컴포넌트가  **인스턴스화 되기 전에** 불려지기 때문입니다.</div>
 
 ## 컨택스트
 
